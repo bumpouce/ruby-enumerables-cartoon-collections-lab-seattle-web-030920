@@ -1,9 +1,8 @@
 def roll_call_dwarves(array)
-#  array.collect do |dwarf|
-#    pp "#{array.key}. #{dwarf}"
-#  end
 
-pp "Array.collect: #{array.collect}"
+  array.collect do |dwarf|
+    pp "#{array.key}. #{dwarf}"
+  end
 end
 
 def summon_captain_planet# code an argument here
