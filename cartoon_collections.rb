@@ -14,6 +14,10 @@ end
 
 def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  pp "Searching array: #{array}"
   array.detect do |item|
-    
+    item == cheese_types.include?
+    return item
+  end
 end
