@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   updated_array = []
   
   array.collect do |item|
-      updated_array << "#{item.c"
+      updated_array << "#{item.capitalize}!"
   end
   
   updated_array
