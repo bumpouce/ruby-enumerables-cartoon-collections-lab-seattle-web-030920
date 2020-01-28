@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   array.collect do |dwarf|
-    pp "#{dwarf}"
+    pp "#{dwarf.index}. #{dwarf}"
   end
 end
 
