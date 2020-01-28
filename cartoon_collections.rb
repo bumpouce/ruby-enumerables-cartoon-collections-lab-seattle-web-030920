@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
 
-  array.collect do |dwarf|
+  array.each_with_index do |dwarf|
     pp "#{array.key}. #{dwarf}"
   end
 end
