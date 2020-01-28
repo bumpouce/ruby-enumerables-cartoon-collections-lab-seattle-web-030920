@@ -5,9 +5,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  updated_array = array
+  updated_array = []
   
-  
+  array.collect do |item|
+      updated_array << "#{item.c"
+  end
   
   updated_array
 end
